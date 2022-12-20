@@ -1,2 +1,2 @@
-# SoftUni_Exams
-SoftUni Exams
+# SoftUni Exams
+Please see the .docx file in each folder for the problems description. /SoftUni Judge Tested
