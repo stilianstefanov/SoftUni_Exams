@@ -4,8 +4,7 @@
     using Newtonsoft.Json;
     using System.Text;
     using System.Xml.Serialization;
-    using Trucks.Data.Models.Enums;
-    using Trucks.DataProcessor.ExportDto;
+    using ExportDto;
 
     public class Serializer
     {
