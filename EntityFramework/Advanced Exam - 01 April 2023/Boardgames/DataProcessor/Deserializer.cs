@@ -8,7 +8,7 @@
     using Data;
     using Data.Models;
     using Data.Models.Enums;
-    using DataProcessor.ImportDto;
+    using ImportDto;
 
 
     public class Deserializer
