@@ -8,7 +8,7 @@ namespace _02.Beaver_at_Work
     {
         static void Main(string[] args)
         {
-            int size = int.Parse(Console.ReadLine());
+            int size = int.Parse(Console.ReadLine()!);
 
             char[,] matrix = new char[size, size];
 
@@ -21,7 +21,7 @@ namespace _02.Beaver_at_Work
 
             for (int row = 0; row < size; row++)
             {
-                char[] curRow = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                char[] curRow = Console.ReadLine()!.Split(' ', StringSplitOptions.RemoveEmptyEntries)
                     .Select(char.Parse)
                     .ToArray();
                 for (int col = 0; col < size; col++)
